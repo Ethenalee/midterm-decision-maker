@@ -40,6 +40,11 @@ When determining the answer to a question, people often benefit from the input o
 ## Development setup
 
 - Install all dependencies using 'npm install' command
+- Create .env file and Cpdate the .env file with your correct local information
+- Create config.js file and module exports mail gun api_key and domain
+- Create database based on .env info and `npm run knex migrate:latest`
+- Fix to binaries for sass: `npm rebuild node-sass`
+
 
 ## Release History
 
